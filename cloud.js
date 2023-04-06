@@ -25,7 +25,7 @@ function checkAttendance({ cookie }) {
 }
 
 function sendMessage(content) {
-  axios.post(`https://sctapi.ftqq.com/SCT147911TWP3wdxQlAqUHfFSohENld25W.send`, {
+  axios.post(`https://sctapi.ftqq.com/xxx.send`, {
     title: content
   }, {
     headers: {
